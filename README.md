@@ -1,6 +1,6 @@
 # YOLO-MP
 
-Lightweight forest fire detection model. Some of the code will be released after the paper is accepted
+Lightweight forest fire detection model. 
 
 ## Backbone
 - GHGNet
@@ -15,7 +15,7 @@ The Wildfire Dataset: https://www.kaggle.com/datasets/elmadafri/the-wildfire-dat
 
 For a detailed introduction to the dataset, please refer to the paper [Flame dataset](https://arxiv.org/pdf/2012.14036v1.pdf) | [The Wildfire Dataset](https://www.mdpi.com/1999-4907/14/9/1697).
 
-Other: It will be published after the paper is accepted
+Other:
 
 If you have any questions, please contact: zhw2279878676@gmail.com
 
