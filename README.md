@@ -2,7 +2,7 @@
 
 Lightweight forest fire detection model. Some of the code will be released after the paper is accepted
 
-## Backbone Network
+## Backbone
 - GHGNet
  
 When `lightconv=False` in the GHGBlock, the GHGBlock is replaced by the HGBlock. Please note that the HGBlock used here differs slightly from the one in the [Official Library](https://github.com/PaddlePaddle/PaddleDetection/blob/develop/ppdet/modeling/backbones/hgnet_v2.py).
