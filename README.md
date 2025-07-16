@@ -2,9 +2,12 @@
 
 Some of the code will be released after the paper is accepted
 
-## Backbone Network – GHGNet
-
+## Backbone Network
+- GHGNet
+ 
 When `lightconv=False` in the GHGBlock, the GHGBlock is replaced by the HGBlock. Please note that the HGBlock used here differs slightly from the one in the [Official Library](https://github.com/PaddlePaddle/PaddleDetection/blob/develop/ppdet/modeling/backbones/hgnet_v2.py).
+
+- FPSConv
 ## Dataset
 Flame dataset: https://ieee-dataport.org/open-access/flame-dataset-aerial-imagery-pile-burn-detection-using-drones-uavs. (IEEE members can log in to download)
 
