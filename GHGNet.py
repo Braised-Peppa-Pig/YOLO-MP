@@ -51,7 +51,7 @@ class GhostConv(nn.Module):
         return torch.cat((y, self.cv2(y)), 1)
 
 
-class Ghost_HGBlock(nn.Module):
+class GHGBlock(nn.Module):
     """
     HG_Block of PPHGNetV2 with 2 convolutions and LightConv.
 
@@ -65,14 +65,14 @@ class Ghost_HGBlock(nn.Module):
         self.m = nn.ModuleList(block(c1 if i == 0 else cm, cm, k=k, act=act) for i in range(n))
         self.sc = Conv(c1 + n * cm, c2 // 2, 1, 1, act=act)  # squeeze conv
         self.ec = Conv(c2 // 2, c2, 1, 1, act=act)  # excitation conv
-        self.add = shortcut and c1 == c2
+        self.添加 = shortcut and c1 == c2
 
     def forward(self, x):
         """Forward pass of a PPHGNetV2 backbone layer."""
         y = [x]
         y.extend(m(y[-1]) for m in self.m)
         y = self.ec(self.sc(torch.cat(y, 1)))
-        return y + x if self.add else y
+        return y + x if self.添加 else y
 
 class DWConv(Conv):
     """Depth-wise convolution."""
