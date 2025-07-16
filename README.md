@@ -1,6 +1,6 @@
 # YOLO-MP
 
-Some of the code will be released after the paper is accepted
+Lightweight forest fire detection model. Some of the code will be released after the paper is accepted
 
 ## Backbone Network
 - GHGNet
