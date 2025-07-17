@@ -17,7 +17,5 @@ For a detailed introduction to the dataset, please refer to the paper [Flame dat
 
 Other:
 
-If you have any questions, please contact: zhw2279878676@gmail.com
-
 ## reference
 - https://github.com/ultralytics/ultralytics
